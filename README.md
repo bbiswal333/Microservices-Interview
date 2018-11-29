@@ -1,6 +1,6 @@
 # Microservices Interview
 
-#### Q1. List down the advantages of Microservices Architecture.
+### Q1. List down the advantages of Microservices Architecture.
 
 -   **Independent Development**
 
@@ -22,7 +22,7 @@
 
     Individual components can scale as per need, there is no need to scale all components together
 
-#### Q2. What do you know about Microservices?
+### Q2. What do you know about Microservices?
 
 -   **Microservices**, aka **Microservice Architecture**, is an architectural style that structures an application as a collection of small autonomous services, modeled around a **business domain**.
 -   In layman terms, you must have seen how bees build their honeycomb by aligning hexagonal wax cells.
@@ -37,7 +37,7 @@
 
 Refer to the above diagram. Here, each hexagonal shape represents an individual service component. Similar to the working of bees, each agile team builds an individual service component with the available frameworks and the chosen technology stack. Just as in a beehive, each service component forms a strong microservice architecture to provide better scalability. Also, issues with each service component can be handled individually by the agile team with no or minimal impact on the entire application.
 
-#### Q3. What are the features of Microservices?
+### Q3. What are the features of Microservices?
 
 ![Alt text](./images/microservices-slide-4-768x419.png)
 
@@ -52,7 +52,7 @@ Refer to the above diagram. Here, each hexagonal shape represents an individual 
 -   **Decentralized Governance** – The focus is on using the right tool for the right job. That means there is no standardized pattern or any technology pattern. Developers have the freedom to choose the best useful tools to solve their problems
 -   **Agility** – Microservices support agile development. Any new feature can be quickly developed and discarded again
 
-#### Q4. What are the best practices to design Microservices?
+### Q4. What are the best practices to design Microservices?
 
 The following are the best practices to design microservices:
 
@@ -60,7 +60,7 @@ The following are the best practices to design microservices:
 
 **Fig 3**: Best Practices to Design Microservices
 
-#### Q5. How does Microservice Architecture work?
+### Q5. How does Microservice Architecture work?
 
 A microservice architecture has the following components:
 
