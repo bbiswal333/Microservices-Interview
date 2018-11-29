@@ -57,7 +57,6 @@ Refer to the above diagram. Here, each hexagonal shape represents an individual 
 The following are the best practices to design microservices:
 
 ![Alt text](./images/best-768x421.png)
-
 **Fig 3**: Best Practices to Design Microservices
 
 ### Q5. How does Microservice Architecture work?
@@ -66,4 +65,80 @@ A microservice architecture has the following components:
 
 ![Alt text](./images/archi.png)
 
-**Fig 5**: Architecture of Microservices
+**Fig 4**: Architecture of Microservices
+
+-   **Clients** – Different users from various devices send requests.
+-   **Identity Providers** – Authenticates user or clients identities and issues security tokens.
+-   **API Gateway** – Handles client requests.
+-   **Static Content** – Houses all the content of the system.
+-   **Management** –  Balances services on nodes and identifies failures.
+-   **Service Discovery** – A guide to find the route of communication between microservices.
+-   **Content Delivery Networks** – Distributed network of proxy servers and their data centers.
+-   **Remote Service** – Enables the remote access information that resides on a network of IT devices.
+
+### Q6. What are the pros and cons of Microservice Architecture?
+
+#### Pros of Microservice Architecture
+-   Freedom to use different technologies
+-   Each microservices focuses on single capability
+-   Supports individual deployable units
+-   Allow frequent software releases
+-   Ensures security of each service
+-   Mulitple services are parallelly developed and deployed
+
+#### Cons of Microservice Architecture
+-   Increases troubleshooting challenges
+-   Increases delay due to remote calls
+-   Increased efforts for configuration and other operations
+-   Difficult to maintain transaction safety
+-   Tough to track data across various boundaries
+-   Difficult to code between services
+
+### Q7. What is the difference between Monolithic, SOA and Microservices Architecture?
+![Alt text](./images/microservices-slide-9-768x493.png)
+**Fig 5**: Comparison Between Monolithic SOA & Microservices
+
+-   **Monolithic Architecture** is similar to a big container wherein all the software components of an application are assembled together and tightly packaged.
+-   A **Service-Oriented Architecture** is a collection of services which communicate with each other. The communication can involve either simple data passing or it could involve two or more services coordinating some activity.
+-   **Microservice Architecture** is an architectural style that structures an application as a collection of small autonomous services, modeled around a business domain.
+
+### Q8. What are the challenges you face while working Microservice Architectures?
+Developing a number of smaller microservices sounds easy, but the challenges often faced while developing them are as follows.
+
+-   **Automate the Components**: Difficult to automate because there are a number of smaller components. So for each component, we have to follow the stages of  Build, Deploy and, Monitor.
+-   **Perceptibility**: Maintaining a large number of components together becomes difficult to deploy, maintain, monitor and identify problems. It requires great perceptibility around all the components.
+-   **Configuration Management**: Maintaining the configurations for the components across the various environments becomes tough sometimes.
+-   **Debugging**: Difficult to find out each and every service for an error. It is essential to maintain centralized logging and dashboards to debug problems.
+
+### Q9. What are the key differences between SOA and Microservices Architecture?
+
+The key differences between SOA and microservices are as follows:
+
+**SOA**
+-   Follows “**share-as-much-as-possible**” architecture approach
+-   Importance is on **business functionality** reuse
+-   They have **common governance** and standards
+-   Uses **Enterprise Service bus (ESB)** for communication
+-   They support **multiple message protocols**
+-   **Multi-threaded** with more overheads to handle I/O
+-   Maximizes application service reusability
+-   **Traditional Relational Databases** are more often used
+-   A systematic change requires modifying the monolith
+-   DevOps / Continuous Delivery is becoming popular, but not yet mainstream
+
+**Microservices**
+-   Follows “**share-as-little-as-possible**” architecture approach
+-   Importance is on the concept of “**bounded context**”
+-   They focus on **people collaboration** and freedom of other options
+-   Simple messaging system
+-   They use **lightweight protocols** such as **HTTP/REST** etc.
+-   **Single-threaded** usually with the use of Event Loop features for non-locking I/O handling
+-   Focuses on **decoupling**
+-   **Modern Relational Databases** are more often used
+-   A systematic change is to create a new service
+-   Strong focus on DevOps / Continuous Delivery
+
+### Q10. What are the characteristics of Microservices?
+
+![Alt text](./images/microservices.png)
+**Fig 6**: Characteristics of Microservices
